@@ -32,3 +32,20 @@ CREATE TABLE IF NOT EXISTS contactos (
 );
 
 ```
+##3.3.(temporal) JSON
+[{
+		"id_contacto": 1,
+		"nombre": "dejah",
+		"primer_apellido": "Thoris",
+		"segundo_apellido": "carter",
+		"email": "dejah@barsoon",
+		"telefono": "12345"
+	},
+
+	{
+		"id_contacto": 2,
+		"nombre": "juan",
+		"primer_apellido": "perez",
+		"segundo_apellido": "lopez"
+	}
+]
