@@ -14,6 +14,11 @@ Para este ejemplo se utilizara gestor de base de datos. [SQLite3].(https://www.s
 |NO.|Campo|Tipo|Restriccion|Descripcion|
 |--|--|--|--|--|
 |1|id_contactos|int|Primary KEY|Llave primaria de la tabla|
+|2|nombre|varchar|NOT NULL|nombre del usuario|
+|3|primer_apellido|NOT NULL|primer apellido del usuario|
+|4|Segundo_apellido|NOT NULL|segundo apellido del usuario|
+|5|telefono|NOT NULL|Telefono del usuario|
+|6|correo_electronico|NOT NULL| gamil del usuario|
 
 ##3.2.Script 
 ```sql 
