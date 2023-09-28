@@ -11,14 +11,14 @@ Realizar un ejemplo de diseño de una API REST de tipo CRUD y su posterior codif
 ##3.Diseño de la BD 
 Para este ejemplo se utilizara gestor de base de datos. [SQLite3].(https://www.sqlite.org/index.html) con las siguientes tablas: 
 
-|NO.|Campo|Tipo|Restriccion|Descripcion|
-|--|--|--|--|--|
-|1|id_contactos|int|Primary KEY|Llave primaria de la tabla|
-|2|nombre|varchar|NOT NULL|nombre del usuario|
-|3|primer_apellido|NOT NULL|primer apellido del usuario|
-|4|Segundo_apellido|NOT NULL|segundo apellido del usuario|
-|5|telefono|NOT NULL|Telefono del usuario|
-|6|correo_electronico|NOT NULL| gamil del usuario|
+|NO.|Campo            |Tipo    |Restriccion  |Descripcion                   |
+|-- |-----------------|------- |------------ |----------------------------- |
+|1  |id_contactos     |int     |Primary KEY  |Llave primaria de la tabla    |
+|2  |nombre           |varchar |NOT NULL     |Nombre del usuario           |
+|3  |primer_apellido  |varchar |NOT NULL     |Primer apellido del usuario   |
+|4  |segundo_apellido |varchar |NOT NULL     |Segundo apellido del usuario  |
+|5  |telefono          |varchar |NOT NULL     |Teléfono del usuario         |
+|6  |correo_electronico|varchar|NOT NULL     |Correo electrónico del usuario (gmail)|
 
 ##3.2.Script 
 ```sql 
