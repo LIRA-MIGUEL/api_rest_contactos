@@ -5,5 +5,5 @@ fastapi==0.103.2
 h11==0.14.0
 pydantic==2.4.2
 pydantic_core==2.10.1
-starlette==0.27.0
+starlette==0.47.2
 uvicorn==0.23.2
